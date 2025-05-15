@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import coffeeBgImg from "/images/more/1.png";
 import { BsCupFill } from "react-icons/bs";
 import { Link } from "react-router";
@@ -16,8 +15,8 @@ const AllCoffee = ({coffees}) => {
   return (
     <div className="" style={coffeeBg}>
       <div className=" w-11/12 mx-auto flex flex-col justify-center text-center items-center my-12 space-y-2">
-        <p className="">--- Sip & Savor ---</p>
-        <h1 className="text-xl font-bold text-[#331A15]">
+        <p className="text-xl">--- Sip & Savor ---</p>
+        <h1 className="text-4xl font-bold text-[#331A15]">
           Our Popular Products
         </h1>
         <Link to='/add-coffee'>

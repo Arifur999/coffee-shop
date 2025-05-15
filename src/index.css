@@ -1,2 +1,11 @@
+@font-face {
+    font-family: Rancho;
+    src: url('../src/assets/font/Rancho-Regular.ttf');
+}
+
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme{
+    --font-rancho:Rancho,"sans-serif";
+}

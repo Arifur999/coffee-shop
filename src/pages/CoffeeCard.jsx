@@ -39,9 +39,9 @@ location.reload()
     });
   };
   return (
-    <div className="card card-side bg-base-100 shadow-sm  p-4 w-full">
+    <div className="lg:card lg:card-side bg-base-100 shadow-sm flex flex-col  p-4 w-full">
       <figure>
-        <img src={photo} alt="Movie" />
+        <img src={photo} alt="" />
       </figure>
       <div className="flex justify-around w-full mt-5">
         <div className="space-y-2">
@@ -49,7 +49,7 @@ location.reload()
           <h2 className="card-title">Chef : {chef}</h2>
           <h2 className="card-title">Price : {price} Taka</h2>
         </div>
-        <div className="card-actions justify-end">
+        <div className="lg:card-actions lg:justify-end justify-center">
           <div className="join join-vertical space-y-2">
             <Link to={`/coffee/${_id}`}>
             <button className="btn join-item rounded bg-[#D2B48C] text-white">

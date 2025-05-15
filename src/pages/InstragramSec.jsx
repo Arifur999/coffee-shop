@@ -5,8 +5,8 @@ const InstragramSec = () => {
     <>
       <div className="lg:w-10/12 w-11/12 mx-auto lg:my-10 my-3">
         <div className="text-center">
-          <p>Follow Us Now</p>
-          <h1 className="text-xl font-bold text-[#331A15]">
+          <p className="text-xl">Follow Us Now</p>
+          <h1 className="text-4xl font-bold text-[#331A15]">
             Follow on Instagram
           </h1>
         </div>

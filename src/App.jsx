@@ -7,11 +7,12 @@ function App() {
 
   return (
     <>
+    <div className="font-rancho">
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
       
-      
+      </div>
       
     </>
   )

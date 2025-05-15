@@ -13,7 +13,7 @@ const Header = () => {
     return (
          <div style={headerStyle}>
             <img className='h-18 w-18 p-2' src="/images/more/logo1.png" alt="" />
-            <h1>Espresso Emporium</h1>
+            <h1 className="text-3xl">Espresso Emporium</h1>
         </div>
     );
 };

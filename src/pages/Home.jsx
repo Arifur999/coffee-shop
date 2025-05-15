@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <div>
+      <div >
         <Hero></Hero>
         <AllCoffee coffees={coffees}></AllCoffee>
         <InstragramSec></InstragramSec>

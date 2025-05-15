@@ -48,11 +48,11 @@ fetch(`http://localhost:3000/coffees/${_id}`,{
         </Link>
         <div className="bg-[#F4F3F0] lg:p-24 p-4 lg:my-10 my-2">
           <div className="text-center space-y-3 my-5">
-            <h1 className="text-2xl font-bold">
+            <h1 className="text-4xl font-bold">
               Update Existing Coffee Details
             </h1>
 
-            <p>
+            <p className="text-xl">
               It is a long established fact that a reader will be distraceted by
               the readable content of <br /> a page when looking at its layout.
               The point of using Lorem Ipsum is that it has a more-or-less{" "}
