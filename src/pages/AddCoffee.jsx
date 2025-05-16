@@ -16,7 +16,7 @@ const AddCoffee = () => {
     const form = e.target;
     const formData = new FormData(form);
     const coffeeData = Object.fromEntries(formData.entries());
-    fetch("http://localhost:3000/coffees", {
+    fetch("https://my-first-sarver.vercel.app/coffees", {
       method: "POST",
       headers: {
         "content-type": "application/json",

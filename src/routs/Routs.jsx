@@ -10,11 +10,11 @@ const router = createBrowserRouter([
   {
     path: "/",
     Component: App,
-    errorElement:<ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        loader: () => fetch("http://localhost:3000/coffees"),
+        loader: () => fetch("https://my-first-sarver.vercel.app/coffees"),
         Component: Home,
       },
       {
@@ -23,13 +23,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/coffee/:id",
-        loader: ({params}) => fetch(`http://localhost:3000/coffees/${params.id}`),
+        loader: ({ params }) =>
+          fetch(`https://my-first-sarver.vercel.app/coffees/${params.id}`),
 
         Component: CoffeeDetails,
       },
       {
         path: "/update-coffee/:id",
-        loader: ({params}) => fetch(`http://localhost:3000/coffees/${params.id}`),
+        loader: ({ params }) =>
+          fetch(`https://my-first-sarver.vercel.app/coffees/${params.id}`),
 
         Component: UpdateCoffee,
       },
